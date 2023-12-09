@@ -1,11 +1,10 @@
 from django.core.management.base import BaseCommand
-from ...parsing_tasks import async_parsing_task
+from ...parser import parsing
 
 
 class Command(BaseCommand):
     help = 'Запуск'
 
     def handle(self, *args, **options):
-        # Вызов вашей асинхронной задачи
-        async_parsing_task.delay()
+        parsing()
         self.stdout.write(self.style.SUCCESS('Задача запущена'))
