@@ -1,4 +1,4 @@
-token = '6419893616:AAG-tbu524ZN7IGIulbJA_ZxNLykdaJWeU0'
+token = '5814873337:AAFmEDxaPRXmg8w1HQ4FTiNB1U5l8pgtFgE'
 
 
-users_id = [412850740, 878760195]
+users_id = [412850740]

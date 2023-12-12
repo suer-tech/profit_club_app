@@ -1,14 +1,12 @@
 from django.core.management.base import BaseCommand
 
-from profitclub.telegram_bot.bot import *
-from ...parser import parsing
-
+from ... bot import run_bot
 
 
 class Command(BaseCommand):
     help = 'Запуск'
 
     def handle(self, *args, **options):
-        # parsing()
+        run_bot()
         self.stdout.write(self.style.SUCCESS('Задача запущена'))
 

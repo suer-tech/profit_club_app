@@ -1,4 +1,4 @@
-from aiogram.types import ReplyKeyboardMarkup, KeyboardButton
+from telebot.types import ReplyKeyboardMarkup, KeyboardButton
 
 button_index = KeyboardButton("Индексы")
 button_crypto = KeyboardButton("Крипто")
